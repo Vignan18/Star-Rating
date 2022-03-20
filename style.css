@@ -1,0 +1,20 @@
+#container{
+    align-items: center;
+    background: #333; 
+    color: white;
+    display: flex;
+    font-size: 50px;
+    height: 300px;
+    width: 500px;
+    justify-content: center;
+    margin:auto;
+    margin-top:100px;
+   
+}
+
+
+
+#container .goldcolor{
+    color:#FFD700 !important;
+    pointer-events:none;
+}

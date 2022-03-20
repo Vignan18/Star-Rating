@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star rating</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="star1" id="1" onmouseover="fillfun(this)" onclick="fillstar(this)" onmouseout="removefun(this)">★</div>
+        <div class="star2" id="2" onmouseover="fillfun(this)" onclick="fillstar(this)" onmouseout="removefun(this)">★</div>
+        <div class="star3" id="3" onmouseover="fillfun(this)" onclick="fillstar(this)" onmouseout="removefun(this)">★</div>
+        <div class="star4" id="4" onmouseover="fillfun(this)" onclick="fillstar(this)" onmouseout="removefun(this)">★</div>
+        <div class="star5" id="5" onmouseover="fillfun(this)" onclick="fillstar(this)" onmouseout="removefun(this)">★</div>
+    </div>
+    <p style="margin-left:45%" id="score">Your rating:</p>
+    <script src="app.js"></script>
+</body>
+</html>
